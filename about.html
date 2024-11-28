@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - WeFund</title>
+    <style>
+   
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #003d99;
+            color: white;
+            padding: 20px 10%;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        header p {
+            font-size: 1rem;
+            margin-top: 5px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ffffff;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1rem;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #f1c40f;
+        }
+
+        .about-section {
+            text-align: center;
+            padding: 50px 10%;
+        }
+
+        .about-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .about-section p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .image-gallery img {
+            width: 300px;
+            height: 200px;
+            border-radius: 10px;
+            object-fit: cover;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .image-gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            background-color: #003d99;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+        }
+
+       
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+      
+        @media (max-width: 768px) {
+            .image-gallery img {
+                width: 100%;
+                max-width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Us</h1>
+        <p>Learn more about WeFund and how we make funding easy for entrepreneurs like you!</p>
+    </header>
+    <nav>
+        <img style="width: 150px; margin-right: 1000px;" src="WeFund_logo_blue-1_page-0001-removebg-preview.png" alt="" srcset="">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+    
+    </nav>
+    <section class="about-section">
+        <h2>Welcome to WeFund</h2>
+        <p>When entrepreneurs like yourself need funding for their business they choose
+            WeFund, Because Wefund makes the approval process quick, simple, and easy! And best
+            of all; WeFund your dreams! As soon as you submit your loan application, our high tech bank
+            experts and professional team of advisors will swiftly get to work for you, and will make sure
+            to instantly process the loan application to get you approved!</p>
+    </section>
+    <section class="image-gallery">
+        <img src="https://container-news.com/wp-content/uploads/2024/02/AdobeStock_460714822.jpeg" alt="Placeholder Image 1">
+        <img src="https://www.credlix.com/_next/image?url=https%3A%2F%2Fblog.credlix.com%2Fwp-content%2Fuploads%2F2019%2F09%2FBlog-1.jpg&w=3840&q=75" alt="Placeholder Image 2">
+        <img src="https://i.brecorder.com/primary/2024/03/12144633aa6fa3c.jpg" alt="Placeholder Image 3">
+        <img src="https://siliconafrica.org/wp-content/uploads/2024/04/loan-application-online-in-Nigeria-1.jpg" alt="Placeholder Image 4">
+    </section>
+
+</body>
+</html>
